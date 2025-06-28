@@ -21,7 +21,13 @@ jobs:
         java-version: '17'
 
     - name: Compile Java program
-      run: javac Demo.java , Add.java
+      run: javac Demo.java
+      
+    - name: Compile Java program
+      run: javac Add.java
 
     - name: Run Java program
-      run: java Demo , Add
+      run: java Demo 
+      
+    - name: Run Java program
+      run: java Add
