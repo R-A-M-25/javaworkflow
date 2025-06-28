@@ -22,12 +22,12 @@ jobs:
 
     - name: Compile Java program
       run: javac Demo.java
-      
-    - name: Compile Java program
-      run: javac Add.java
 
     - name: Run Java program
       run: java Demo 
+      
+    - name: Compile Java program
+      run: javac Add.java
       
     - name: Run Java program
       run: java Add
